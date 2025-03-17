@@ -43,7 +43,7 @@
 
 # What is your status page called?
 # Shows up in the browser bar and meta tags
-title: Eggsample Status
+title: CNS @ UVA Status
 
 # Should posts, which have a publish date
 # from the future, be built? Useful for
@@ -97,7 +97,7 @@ defaultContentLanguage: en
 #
 # Broken example:
 # baseUrl: /
-baseURL: https://example.com
+baseURL: https://status.uvacns.com
 
 # For features like Last modified, you
 # need to use a Git repository. If you
@@ -143,10 +143,12 @@ params:
   # For help, see the wiki:
   # https://github.com/cstate/cstate/wiki/Customization
   categories:
-    - name: North Coast
-      description: The main servers are located here.
-      closed: true
-    - name: Empty Category
+    - name: CNS Infrastructure
+      description: These systems underlie CNS day-to-day operations.
+    - name: Cyber Range
+      description: The Cyber Range is a laboratory for cybersecurity research and experimentation open to all UVA students.
+    - name: ACM
+      descripton: CNS hosts some infrastructure on behalf of the Association for Computing Machinery (ACM).
     - name: Uncategorized
       untitled: true
 
@@ -158,20 +160,38 @@ params:
   # For help, see the wiki:
   # https://github.com/cstate/cstate/wiki/Customization
   systems:
-    - name: Gateway
-      category: North Coast
-    - name: Backup Gateway
-      category: North Coast
-    - name: Website
-      description: The web frontend for the application.
-      category: Uncategorized
-      link: https://example.com/
-    - name: API
-      description: The guts of the application.
-      category: Uncategorized
-    - name: Media Proxy
-      description: This is the service responsible for serving images, audio, and video. It is reliant on our CDN.
-      category: Uncategorized
+    - name: Proxmox
+      category: CNS Infrastructure
+    - name: CNS Website
+      category: CNS Infrastructure
+    - name: CyberStorm Website
+      category: CNS Infrastructure
+    - name: CNS Documentation
+      category: CNS Infrastructure
+    - name: CNS Authentication Backend
+      category: CNS Infrastructure
+    - name: CNS Single Sign-On
+      category: CNS Infrastructure
+    - name: CNS Network Builder
+      category: CNS Infrastructure
+    - name: CNS Network Inventory
+      category: CNS Infrastructure
+    - name: CNS Network Monitoring
+      category: CNS Infrastructure
+    - name: CNS SIEM
+      category: CNS Infrastructure
+    - name: CNS VPN
+      category: CNS Infrastructure
+    - name: CNS Infrastructure Storage Backend
+      category: CNS Infrastructure
+    - name: OpenStack
+      category: Cyber Range
+    - name: Ceph
+      category: Cyber Range
+    - name: HSPC
+      category: ACM
+    - name: Megafonzie
+      category: ACM
 
   # What date format to use?
   #
@@ -209,7 +229,7 @@ params:
   # Default: `true`
   # BOOLEAN; `true`, `false`
   useRelativeTime: true
- 
+
   # If enabled, doesn't show seconds on relative times.
   #
   # With option ON (true):
@@ -286,7 +306,7 @@ params:
   #
   # Recommended: png, bmp, jpg, or gif
   # for best browser support!
-  logo: logo.png
+  logo: cns.svg
 
   # This is the description that is shown
   # on the footer and meta tags.
@@ -333,7 +353,7 @@ params:
   # disrupted: "#cc4400"
   # down: "#e60000"
   # notice: "#24478f"
-  brand: "#0a0c0f"
+  brand: "#232d4b"
   ok: "#008000"
   disrupted: "#cc4400"
   down: "#e60000"
