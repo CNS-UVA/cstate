@@ -150,7 +150,7 @@ params:
     - name: Cyber Range
       description: The Cyber Range is a laboratory for cybersecurity research and experimentation open to all UVA students.
     - name: ACM
-      descripton: CNS hosts some infrastructure on behalf of the Association for Computing Machinery (ACM).
+      description: CNS hosts some infrastructure on behalf of the Association for Computing Machinery (ACM).
     - name: Uncategorized
       untitled: true
 
