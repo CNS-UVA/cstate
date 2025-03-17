@@ -111,6 +111,8 @@ baseURL: https://status.uvacns.com/
 # BOOLEAN; `true`, `false`
 enableGitInfo: true
 
+# Set timezone to Eastern time
+timezone: "America/New_York"
 
 ############################################################
 # +------------------------------------------------------+ #
@@ -202,8 +204,8 @@ params:
   #
   # dateFormat Default: "January 2, 2006 at 3:04 PM"
   # shortDateFormat Default: "15:04 — Jan 2"
-  dateFormat: January 2, 2006 at 3:04 PM UTC
-  shortDateFormat: 15:04 UTC — Jan 2
+  dateFormat: January 2, 2006 at 3:04 PM MST
+  shortDateFormat: 15:04 MST — Jan 2
 
   # Should relative time (x min ago) be used?
   #
