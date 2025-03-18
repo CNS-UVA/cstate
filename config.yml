@@ -162,38 +162,54 @@ params:
   # For help, see the wiki:
   # https://github.com/cstate/cstate/wiki/Customization
   systems:
-    - name: Proxmox
+    - name: BookStack
       category: CNS Infrastructure
-    - name: CNS Website
-      category: CNS Infrastructure
+      link: https://docs.uvacns.com
+      description: Documentation website
     - name: CyberStorm Website
       category: CNS Infrastructure
-    - name: CNS Documentation
+      link: https://cyberstorm.uvacns.com
+      description: Website for CyberStorm, the CNS in-house cyber defense competition
+    - name: Keycloak
       category: CNS Infrastructure
-    - name: CNS Authentication Backend
+      link: https://kc.uvacns.com
+      description: Single sign-on website
+    - name: LibreNMS
       category: CNS Infrastructure
-    - name: CNS Single Sign-On
+      link: https://nms.int.uvacns.com
+      description: Network monitoring website
+    - name: Netbox
       category: CNS Infrastructure
-    - name: CNS Network Builder
+      link: https://netbox.int.uvacns.com
+      description: Network inventory website
+    - name: Network Builder
       category: CNS Infrastructure
-    - name: CNS Network Inventory
+      description: Rapid network deployment tool
+    - name: Proxmox
       category: CNS Infrastructure
-    - name: CNS Network Monitoring
+      link: https://proxmox.uvacns.com
+      description: Virtualization cluster
+    - name: Wazuh
       category: CNS Infrastructure
-    - name: CNS SIEM
+      link: https://wazuh.int.uvacns.com
+      description: Security monitoring website
+    - name: Website
       category: CNS Infrastructure
-    - name: CNS VPN
+      link: https://uvacns.com
+      description: CNS website
+    - name: VPN
       category: CNS Infrastructure
-    - name: CNS Infrastructure Storage Backend
-      category: CNS Infrastructure
+      description: Remote access service
     - name: OpenStack
       category: Cyber Range
-    - name: Ceph
-      category: Cyber Range
+      description: Virtualization cluster
     - name: HSPC
       category: ACM
+      link: https://hspc.cs.virginia.edu
+      description: High school programming contest infrastructure
     - name: Megafonzie
       category: ACM
+      description: Discord bot
 
   # What date format to use?
   #

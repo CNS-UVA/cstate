@@ -5,17 +5,16 @@ resolved: true
 resolvedWhen: 2025-03-18 12:13:49
 severity: down
 affected:
-  - CNS Website
+  - BookStack
   - CyberStorm Website
-  - CNS Documentation
-  - CNS Authentication Backend
-  - CNS Single Sign-On
-  - CNS Network Builder
-  - CNS Network Inventory
-  - CNS Network Monitoring
-  - CNS SIEM
-  - CNS VPN
-  - CNS Infrastructure Storage Backend
+  - Keycloak
+  - LibreNMS
+  - Netbox
+  - Network Builder
+  - Proxmox
+  - Wazuh
+  - Website
+  - VPN
   - HSPC
   - Megafonzie
 section: issue
