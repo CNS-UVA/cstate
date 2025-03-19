@@ -145,12 +145,17 @@ params:
   # For help, see the wiki:
   # https://github.com/cstate/cstate/wiki/Customization
   categories:
+    - name: CNS Services
+      description: These systems provide public-facing services.
     - name: CNS Infrastructure
       description: These systems underlie CNS day-to-day operations.
-    - name: Cyber Range
-      description: The Cyber Range is a laboratory for cybersecurity research and experimentation open to all UVA students.
+      closed: true
+    - name: Monitoring and Logging
+      description: These systems provide a view of the state of the CNS network.
+      closed: true
     - name: ACM
       description: CNS hosts some infrastructure on behalf of the Association for Computing Machinery (ACM).
+      closed: true
     - name: Uncategorized
       untitled: true
 
@@ -163,11 +168,15 @@ params:
   # https://github.com/cstate/cstate/wiki/Customization
   systems:
     - name: BookStack
-      category: CNS Infrastructure
+      category: CNS Services
       link: https://docs.uvacns.com
       description: Documentation website
+    - name: Cyber Range
+      category: CNS Services
+      link: https://range.uvacns.com
+      description: Virtualization cluster
     - name: CyberStorm Website
-      category: CNS Infrastructure
+      category: CNS Services
       link: https://cyberstorm.uvacns.com
       description: Website for CyberStorm, the CNS in-house cyber defense competition
     - name: Keycloak
@@ -175,7 +184,7 @@ params:
       link: https://kc.uvacns.com
       description: Single sign-on website
     - name: LibreNMS
-      category: CNS Infrastructure
+      category: Monitoring and Logging
       link: https://nms.int.uvacns.com
       description: Network monitoring website
     - name: Netbox
@@ -186,23 +195,20 @@ params:
       category: CNS Infrastructure
       description: Rapid network deployment tool
     - name: Proxmox
-      category: CNS Infrastructure
+      category: CNS Services
       link: https://proxmox.uvacns.com
       description: Virtualization cluster
     - name: Wazuh
-      category: CNS Infrastructure
+      category: Monitoring and Logging
       link: https://wazuh.int.uvacns.com
       description: Security monitoring website
     - name: Website
-      category: CNS Infrastructure
+      category: CNS Services
       link: https://uvacns.com
       description: CNS website
     - name: VPN
       category: CNS Infrastructure
       description: Remote access service
-    - name: OpenStack
-      category: Cyber Range
-      description: Virtualization cluster
     - name: HSPC
       category: ACM
       link: https://hspc.cs.virginia.edu
