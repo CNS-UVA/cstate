@@ -1,14 +1,11 @@
 ---
-title: "Netbox is back online!"
-date: 2025-04-17T01:59:06.549Z
-resolved: true
-resolvedWhen: 2025-04-17T02:01:05.646Z
-severity: "resolved"
+title: "Netbox is down!"
+date: 2025-04-17T04:57:06.577Z
+resolved: false
+severity: "disrupted"
 affected: ["Netbox"]
 id: "http-status-netbox"
 section: issue
 ---
 
-*The issue with our system "Netbox" has been resolved.* {{< track "2025-04-17T02:01:05.646Z" >}}
-
-**Automated system alert* - We are sensing a disruption in our http-status monitor. This means that end users may experience issues with our "Netbox". This may be temporary.* {{< track "2025-04-17T01:59:06.549Z" >}}
+**Automated system alert* - We are sensing a disruption in our http-status monitor. This means that end users may experience issues with our "Netbox". This may be temporary.* {{< track "2025-04-17T04:57:06.577Z" >}}
