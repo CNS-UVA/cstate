@@ -20,6 +20,6 @@ affected:
 section: issue
 ---
 
-<!-- *Monitoring* - ... {{< track "2025-07-09 16:02:43" >}} -->
+*Monitoring* - Our systems are currently available. We are investigating the root cause of this incident. {{< track "2025-07-13 18:55:30" >}}
 
 *Investigating* - We are aware of an outage affecting the CNS network beginning at approximately 1:50 PM ET today. We are looking into the issue to determine its cause. Remediation may be slow as it is summer break and no one is in Charlottesville. {{< track "2025-07-09 16:02:43" >}}
